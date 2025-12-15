@@ -1,5 +1,6 @@
 import Head from "next/head";
-import { useState } from "react";
+import {useState } from "react";
+import FadeIn from "../pages/FadeIn";
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
@@ -12,41 +13,36 @@ export default function Home() {
             <link rel="icon" href="/favicon.ico" />
         </Head>
         <main className="text-teal-600 min-h-screen">
-            <nav className="w-48 fixed left-0 top-0 h-screen px-6 py-10 flex flex-col justify-center gap-6">
-                <a href="#background">
+            <nav className="z-50 w-48 fixed left-0 top-0 h-screen px-6 py-10 flex flex-col justify-center gap-6">
+                <a href="#background" className="cursor-pointer">
                     Background
                 </a>
-                <a href="#experience">
+                <a href="#experience" className="cursor-pointer">
                     Experience  
                 </a>
-                <a href="#experience">
+                <a href="#projects" className="cursor-pointer">
                     Projects  
                 </a>
             </nav>
             {/* Intro */}
-            <section className="min-h-screen px-100 flex flex-col justify-center items-center"> 
-                <div className="text-center">
+            <FadeIn>
+            <section className="min-h-screen px-96 flex flex-col justify-center"> 
                     <h5>
                         Hello, my name is
                     </h5>
-                </div>
-                <div className="text-center font-bold text-gray-300">
-                    <h1 className="text-7xl">
+                    <h1 className="py-2 text-gray-300 text-9xl">
                         Kevin Lai
                     </h1>
-                </div>
-                <div className="text-center font-bold text-gray-400">
-                    <h1 className="text-7xl">
+                    <h1 className="py-2 font-bold text-gray-400 text-2xl">
                         I build things for the web.
                     </h1>
-                </div>
-                <div className="text-center text-gray-400">
-                    <h1 className="text-2xl">
+                    <h1 className="py-2 text-gray-400 text-2xl">
                         Software developer focused on building clean, efficient, and user-friendly applications. Experienced in full-stack development with a strong interest in scalable systems and thoughtful design.
                     </h1>
-                </div>
             </section>
+            </FadeIn>
             {/* Background */}
+            <FadeIn>
             <section id="background" className="min-h-screen">
                 <div className=" px-80">
                     <h1 className="text-4xl">
@@ -60,7 +56,9 @@ export default function Home() {
                     </h1>
                 </div>
             </section>
+            </FadeIn>
             {/* Experience */}
+            <FadeIn>
             <section id="experience" className="min-h-screen">   
                 <div className="px-80">
                     <h1 className="text-4xl">
@@ -68,8 +66,10 @@ export default function Home() {
                     </h1>
                 </div>
             </section>
+            </FadeIn>
             {/* Projects */}
-            <section id="projects">  
+            <FadeIn>
+            <section id="projects" className="min-h-screen">  
                 <h1 className="px-80 text-4xl">
                         Projects
                 </h1> 
@@ -92,6 +92,7 @@ export default function Home() {
                     </h1>
                 </div>
             </section>
+            </FadeIn>
         </main>
     </div>
   );
