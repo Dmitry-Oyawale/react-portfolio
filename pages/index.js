@@ -28,6 +28,9 @@ export default function Home() {
                 <a href="#projects" className="cursor-pointer [font-family:var(--font-space)]">
                     Projects  
                 </a>
+                <a href="#contact" className="cursor-pointer [font-family:var(--font-space)]">
+                    Contact  
+                </a>
             </nav>
             {/* Intro */}
             <FadeIn>
@@ -142,6 +145,7 @@ export default function Home() {
                     <h1 className="text-6xl text-teal-500 [font-family:var(--font-space)]">
                             projects.
                     </h1>
+                    <br></br>
                     <div className="px-4 sm:px-8 lg:px-24 site-container">
                         <h1 className="text-3xl">
                             Yelp Database app
@@ -181,12 +185,36 @@ export default function Home() {
             </section>
             </FadeIn>
             <FadeIn>
-            <section id="projects" className="min-h-screen scroll-mt-24">  
-                <div className="px-6 sm:px-10 lg:px-24 xl:px-67  text-gray-200 [font-family:var(--font-space)]">
+            <section id="contact" className="min-h-screen scroll-mt-24">  
+                <div className="px-6 sm:px-10 lg:px-24 xl:px-67  text-gray-200">
                     <h1 className="text-6xl text-teal-500 [font-family:var(--font-space)]">
                             contact.
                     </h1>
-                    
+                    <br></br>
+                    <br></br>
+                    <u className="text-2xl flex justify-center">laikevin279@gmail.com</u>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <div className="text-gray-400 flex flex-row justify-center gap-6">
+                        <a href="https://github.com/Dmitry-Oyawale">
+                            <IconGitHub className="w-50 hover:text-white transition" />
+                        </a>
+                        <a href="https://www.linkedin.com/in/kevin-lai-250339313/">
+                            <IconLinkedin className="w-50 hover:text-white transition" />
+                        </a>
+                        <a href="https://www.instagram.com/kevinlai483/">
+                            <IconInstagram className="w-50 hover:text-white transition" />
+                        </a>
+                        <a href="https://clovesandcinnamon3.wordpress.com/">
+                            <IconWordPress className="w-50 hover:text-white transition" />
+                        </a>
+                    </div>
+
+                    <p className="text-center text-gray-400 px-30 mt-40">
+                        Loosely designed in Figma and coded in Visual Studio Code by yours truly. Built with Next.js and Tailwind CSS, deployed with Vercel. All text is set in the Inter typeface.
+                    </p>
                 </div>
             </section>
             </FadeIn>
