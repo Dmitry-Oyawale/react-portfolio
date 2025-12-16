@@ -1,6 +1,11 @@
 import Head from "next/head";
 import {useState } from "react";
 import FadeIn from "../pages/FadeIn";
+import Image from "next/image";
+import IconGitHub from "../public/github";
+import IconInstagram from "../public/instagram";    
+import IconLinkedin from "../public/linkedin";
+import IconWordPress from "../public/wordpress";
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
@@ -13,7 +18,7 @@ export default function Home() {
             <link rel="icon" href="/favicon.ico" />
         </Head>
         <main className="text-teal-500 min-h-screen">
-            <nav className="z-50 w-48 fixed left-0 top-0 h-screen px-6 py-10 flex flex-col justify-center gap-6">
+            <nav className="hidden lg:flex z-50 w-48 fixed left-0 top-0 h-screen px-6 py-10 flex-col justify-center gap-6">
                 <a href="#background" className="cursor-pointer [font-family:var(--font-space)]">
                     About
                 </a>
@@ -78,7 +83,7 @@ export default function Home() {
                         experience.
                     </h1>
                     <div className="px-4 sm:px-8 lg:px-24 trans-container group relative overflow-hidden">
-                        <div className="relative flex flex-row items-start gap-2">
+                        <div className="relative items-start gap-2 flex flex-col sm:flex-row">
                             <h1 className="text-1xl text-gray-400 w-50 shrink-0"> 
                                 Jan. 2025 – Aug. 2025
                             </h1>
@@ -90,14 +95,13 @@ export default function Home() {
                                     Built an interactive SAT prep game used by 200+ students using React, Django, and PostgreSQL, featuring real-time gameplay, dynamic scoring, and multiplayer support via REST APIs and WebSockets. Implemented a weekly, category-based leaderboard (Math and Reading) with live data refresh and sub-second UI updates. Designed responsive, data-driven UI components and a clean, modular architecture to improve scalability and reduce maintenance overhead.
                                 </p>
                                 <div className="gap-2">
-                                    <div className="flex flex-row justify-start gap-2 text-sm text-teal-400">
+                                    <div className="flex flex-row flex-wrap justify-start gap-2 text-sm text-teal-400">
                                         <h3 className="mini-container">JavaScript</h3>
                                         <h3 className="mini-container">React.js</h3>
                                         <h3 className="mini-container">Python</h3>
                                         <h3 className="mini-container">SQL</h3>
                                         <h3 className="mini-container">Django</h3>
-                                    </div>
-                                    <div className="flex flex-row justify-start gap-2 text-sm text-teal-400">
+                                
                                         <h3 className="mini-container">Node.js</h3>
                                         <h3 className="mini-container">HTML</h3>
                                         <h3 className="mini-container">CSS</h3>
@@ -107,7 +111,7 @@ export default function Home() {
                         </div>
                     </div>
                     <div className="px-4 sm:px-8 lg:px-24 trans-container group relative overflow-hidden">
-                        <div className="relative flex flex-row items-start gap-2">
+                        <div className="relative items-start gap-2 flex flex-col sm:flex-row">
                             <h1 className="text-1xl text-gray-400 w-50 shrink-0"> 
                                 Sep. 2025 – Dec. 2025
                             </h1>
@@ -163,7 +167,7 @@ export default function Home() {
                             A Python-based notes application using Flask with secure authentication, SQLAlchemy-backed data persistence, and a responsive user interface for managing personal notes.
                         </h1>
                         <br></br>
-                        <div className="w-1/2 text-gray-400 text-[.9rem] flex gap-6">
+                        <div className="text-gray-400 text-[.9rem] flex flex-wrap gap-6">
                             <p>Python</p>
                             <p>HTML</p>
                             <p>JavaScript</p>
@@ -173,6 +177,16 @@ export default function Home() {
                             <p>SQL</p>
                         </div>
                     </div>
+                </div>
+            </section>
+            </FadeIn>
+            <FadeIn>
+            <section id="projects" className="min-h-screen scroll-mt-24">  
+                <div className="px-6 sm:px-10 lg:px-24 xl:px-67  text-gray-200 [font-family:var(--font-space)]">
+                    <h1 className="text-6xl text-teal-500 [font-family:var(--font-space)]">
+                            contact.
+                    </h1>
+                    
                 </div>
             </section>
             </FadeIn>
