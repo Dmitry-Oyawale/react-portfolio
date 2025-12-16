@@ -1,16 +1,18 @@
-import '../styles/globals.css'
-import { Inter } from "next/font/google";
+import "../styles/globals.css";
+import { Inter, Space_Grotesk } from "next/font/google";
 
-const inter = Inter({
+const inter = Inter({ subsets: ["latin"] });
+
+const spaceGrotesk = Space_Grotesk({
   subsets: ["latin"],
+  variable: "--font-space",
+  weight: ["300", "400", "500", "600", "700"],
 });
 
-function MyApp({ Component, pageProps }) {
+export default function MyApp({ Component, pageProps }) {
   return (
-    <main className={inter.className}>
+    <main className={`${inter.className} ${spaceGrotesk.variable}`}>
       <Component {...pageProps} />
     </main>
   );
 }
-
-export default MyApp

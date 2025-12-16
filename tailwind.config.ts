@@ -1,14 +1,17 @@
 import type { Config } from "tailwindcss";
 
-export default {
-  darkMode: "class",
-  content: [
-    "./pages/**/*.{js,ts,jsx,tsx}",
-    "./components/**/*.{js,ts,jsx,tsx}",
-    "./styles/**/*.{css}",
-  ],
+const config: Config = {
+  content: ["./pages/**/*.{js,ts,jsx,tsx}", "./components/**/*.{js,ts,jsx,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        space: ["var(--font-space)"],
+      },
+      spacing: {
+        "123": "30.75rem",
+      },
+    },
   },
-  plugins: [],
-} satisfies Config;
+};
+
+export default config;
