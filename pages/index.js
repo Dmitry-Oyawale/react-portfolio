@@ -26,7 +26,7 @@ export default function Home() {
             </nav>
             {/* Intro */}
             <FadeIn>
-            <section className="min-h-screen px-96 flex flex-col justify-center"> 
+            <section className="min-h-screen px-6 sm:px-10 lg:px-24 xl:px-96 flex flex-col justify-center"> 
                     <h3 className="[font-family:var(--font-space)]">
                         Hello, my name is
                     </h3>
@@ -43,8 +43,8 @@ export default function Home() {
             </FadeIn>
             {/* Background */}
             <FadeIn>
-            <section id="background" className="min-h-screen">
-                <div className="px-67">
+            <section id="background" className="min-h-screen scroll-mt-24">
+                <div className="px-6 sm:px-10 lg:px-24 xl:px-67">
                     <h1 className="text-6xl [font-family:var(--font-space)]">
                         about.
                     </h1>
@@ -72,12 +72,12 @@ export default function Home() {
             </FadeIn>
             {/* Experience */}
             <FadeIn>
-            <section id="experience" className="min-h-screen">   
-                <div className="px-67">
+            <section id="experience" className="min-h-screen scroll-mt-24">   
+                <div className="px-6 sm:px-10 lg:px-24 xl:px-67">
                     <h1 className="text-6xl [font-family:var(--font-space)]">
                         experience.
                     </h1>
-                    <div className="px-80 trans-container group relative overflow-hidden">
+                    <div className="px-4 sm:px-8 lg:px-24 trans-container group relative overflow-hidden">
                         <div className="relative flex flex-row items-start gap-2">
                             <h1 className="text-1xl text-gray-400 w-50 shrink-0"> 
                                 Jan. 2025 – Aug. 2025
@@ -106,7 +106,7 @@ export default function Home() {
                             </div>
                         </div>
                     </div>
-                    <div className="px-80 trans-container group relative overflow-hidden">
+                    <div className="px-4 sm:px-8 lg:px-24 trans-container group relative overflow-hidden">
                         <div className="relative flex flex-row items-start gap-2">
                             <h1 className="text-1xl text-gray-400 w-50 shrink-0"> 
                                 Sep. 2025 – Dec. 2025
@@ -133,12 +133,12 @@ export default function Home() {
             </FadeIn>
             {/* Projects */}
             <FadeIn>
-            <section id="projects" className="min-h-screen">  
-                <div className="px-67  text-gray-200 [font-family:var(--font-space)]">
+            <section id="projects" className="min-h-screen scroll-mt-24">  
+                <div className="px-6 sm:px-10 lg:px-24 xl:px-67  text-gray-200 [font-family:var(--font-space)]">
                     <h1 className="text-6xl text-teal-500 [font-family:var(--font-space)]">
                             projects.
                     </h1>
-                    <div className="px-80 site-container">
+                    <div className="px-4 sm:px-8 lg:px-24 site-container">
                         <h1 className="text-3xl">
                             Yelp Database app
                         </h1>
@@ -154,7 +154,7 @@ export default function Home() {
                             <p>PostgreSQL</p>
                         </div>
                     </div>
-                    <div className="px-80 site-container">
+                    <div className="px-4 sm:px-8 lg:px-24 site-container">
                         <h1 className="text-3xl">
                             Python Notes Website 
                         </h1>
