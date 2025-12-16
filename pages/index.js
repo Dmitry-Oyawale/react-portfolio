@@ -39,29 +39,29 @@ export default function Home() {
                 <nav className="flex justify-between">
                     <div> 
                         <a href="https://github.com/Dmitry-Oyawale">
-                            <IconGitHub className="w-12 sm:w-15 lg:w-22 hover:text-white transition" />
+                            <IconGitHub className="mx-3 my-3 w-6 sm:w-8 lg:w-11 hover:text-white transition" />
                         </a>
                     </div>
                     <div className="flex">
                         <a href="https://github.com/Dmitry-Oyawale">
-                            <IconGitHub className="w-12 sm:w-15 lg:w-22 hover:text-white transition" />
+                            <IconGitHub className="mx-2 my-3 w-6 sm:w-8 lg:w-11 hover:text-white transition" />
                         </a>
                         <a href="https://www.linkedin.com/in/kevin-lai-250339313/">
-                            <IconLinkedin className="w-12 sm:w-15 lg:w-22 hover:text-white transition" />
+                            <IconLinkedin className="mx-2 my-3 w-6 sm:w-8 lg:w-11 hover:text-white transition" />
                         </a>
                         <a href="https://www.instagram.com/kevinlai483/">
-                            <IconInstagram className="w-12 sm:w-15 lg:w-22 hover:text-white transition" />
+                            <IconInstagram className="mx-2 my-3 w-6 sm:w-8 lg:w-11 hover:text-white transition" />
                         </a>
                         <a href="https://clovesandcinnamon3.wordpress.com/">
-                            <IconWordPress className="w-12 sm:w-15 lg:w-22 hover:text-white transition" />
+                            <IconWordPress className="mx-2 my-3 w-6 sm:w-8 lg:w-11 hover:text-white transition" />
                         </a>
                     </div>
                 </nav>
-                <div className="px-6 sm:px-10 lg:px-24 xl:px-96 flex flex-col justify-center">
+                <div className="px-6 mt-20 sm:px-10 lg:px-24 lg:mt-27 xl:px-96 xl:mt-35 flex flex-col justify-center">
                     <h3 className="[font-family:var(--font-space)]">
                         Hello, my name is
                     </h3>
-                    <h1 className="py-2 text-gray-300 text-9xl [font-family:var(--font-space)]">
+                    <h1 className="py-2 text-gray-300 text-7xl sm:text-9xl [font-family:var(--font-space)]">
                         kevin lai
                     </h1>
                     <h1 className="py-2 font-bold text-gray-400 text-2xl">
