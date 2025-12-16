@@ -46,26 +46,26 @@ export default function Home() {
                 <nav className="flex justify-between text-teal-700 px-2">
                     <div></div>
                     <div className="flex">
-                        <a href="https://github.com/Dmitry-Oyawale">
+                        <a href="https://github.com/Dmitry-Oyawale" target="_blank" rel="noopener noreferrer">
                             <IconGitHub className="mx-2 my-4 w-6 sm:w-8 lg:w-11 hover:text-white transition" />
                         </a>
-                        <a href="https://www.linkedin.com/in/kevin-lai-250339313/">
+                        <a href="https://www.linkedin.com/in/kevin-lai-250339313/" target="_blank" rel="noopener noreferrer">
                             <IconLinkedin className="mx-2 my-4 w-6 sm:w-8 lg:w-11 hover:text-white transition" />
                         </a>
-                        <a href="https://www.instagram.com/kevinlai483/">
+                        <a href="https://www.instagram.com/kevinlai483/" target="_blank" rel="noopener noreferrer">
                             <IconInstagram className="mx-2 my-4 w-6 sm:w-8 lg:w-11 hover:text-white transition" />
                         </a>
-                        <a href="https://clovesandcinnamon3.wordpress.com/">
+                        <a href="https://clovesandcinnamon3.wordpress.com/" target="_blank" rel="noopener noreferrer">
                             <IconWordPress className="mx-2 my-4 w-6 sm:w-8 lg:w-11 hover:text-white transition" />
                         </a>
                     </div>
                 </nav>
                 <div className="px-6 mt-20 sm:px-10 lg:px-24 lg:mt-32 xl:px-96 xl:mt-35 flex flex-col justify-center">
-                    <h3 className="[font-family:var(--font-space)]">
+                    <h3 className="text-[1.35-rem] [font-family:var(--font-space)]">
                         Hello, my name is
                     </h3>
                     <h1 className="py-2 text-gray-300 text-7xl sm:text-9xl [font-family:var(--font-space)]">
-                        kevin lai
+                        kevin Lai
                     </h1>
                     <h1 className="text py-2 font-bold text-gray-400 text-2xl">
                         Software Developer
@@ -102,72 +102,73 @@ export default function Home() {
                                 In my free time I try to challenge myself with new projects, learn new things, compose music, practice yoga, go for a long run or just kick back relax at a temple nearby.
                         </h1>
                         <br></br>
-                        <br></br>
                         <h1 className="text-sm w-1/2 second-half-text">
                                 Creating something from the ground up and watching it grow is incredibly fulfilling. Engaging in this process with passion feels spiritual to me.
                         </h1>
                         <br></br>
                         <br></br>
-                        <h1 className="text-sm">
-                            My current tech stack includes the following:
-                        </h1>
-                        <div className="flex text-sm">
-                            <ul className="text-sm">
-                                <li className="flex items-center"> 
-                                    <span className="text-teal-500 text-2xl mr-2">&#x2023;</span>
-                                    Python
-                                </li>
-                                <li className="flex items-center"> 
-                                    <span className="text-teal-500 text-2xl mr-2">&#x2023;</span>
-                                    Java
-                                </li>
-                                <li className="flex items-center"> 
-                                    <span className="text-teal-500 text-2xl mr-2">&#x2023;</span>
-                                    C
-                                </li>
-                            </ul>
-                            <ul className="text-sm">
-                                <li className="flex items-center"> 
-                                    <span className="text-teal-500 text-2xl mr-2">&#x2023;</span>
-                                    C++
-                                </li>
-                                <li className="flex items-center"> 
-                                    <span className="text-teal-500 text-2xl mr-2">&#x2023;</span>
-                                    SQL
-                                </li>
-                                <li className="flex items-center"> 
-                                    <span className="text-teal-500 text-2xl mr-2">&#x2023;</span>
-                                    Node.js
-                                </li>
-                            </ul>
-                            <ul className="text-sm">
-                                <li className="flex items-center"> 
-                                    <span className="text-teal-500 text-2xl mr-2">&#x2023;</span>
-                                    JavaScript
-                                </li>
-                                <li className="flex items-center"> 
-                                    <span className="text-teal-500 text-2xl mr-2">&#x2023;</span>
-                                    CSS
-                                </li>
-                                <li className="flex items-center"> 
-                                    <span className="text-teal-500 text-2xl mr-2">&#x2023;</span>
-                                    HTML
-                                </li>
-                            </ul>
-                            <ul className="text-sm">
-                                <li className="flex items-center"> 
-                                    <span className="text-teal-500 text-2xl mr-2">&#x2023;</span>
-                                    Django
-                                </li>
-                                <li className="flex items-center"> 
-                                    <span className="text-teal-500 text-2xl mr-2">&#x2023;</span>
-                                    React.js
-                                </li>
-                                <li className="flex items-center"> 
-                                    <span className="text-teal-500 text-2xl mr-2">&#x2023;</span>
-                                    Flask
-                                </li>
-                            </ul>
+                        <div className="flex flex-col flex-wrap justify-center items-center text-center">
+                            <h1 className="text-sm">
+                                My current tech stack includes the following:
+                            </h1>
+                            <div className="flex flex-wrap text-sm mt-4 gap-10">
+                                <ul>
+                                    <li className="flex flex-wrap items-center"> 
+                                        <span className="text-teal-500 text-2xl mr-2">&#x2023;</span>
+                                        Python
+                                    </li>
+                                    <li className="flex flex-wrap items-center"> 
+                                        <span className="text-teal-500 text-2xl mr-2">&#x2023;</span>
+                                        Java
+                                    </li>
+                                    <li className="flex flex-wrap items-center"> 
+                                        <span className="text-teal-500 text-2xl mr-2">&#x2023;</span>
+                                        C
+                                    </li>
+                                </ul>
+                                <ul className="text-sm">
+                                    <li className="flex flex-wrap items-center"> 
+                                        <span className="text-teal-500 text-2xl mr-2">&#x2023;</span>
+                                        C++
+                                    </li>
+                                    <li className="flex flex-wrap items-center"> 
+                                        <span className="text-teal-500 text-2xl mr-2">&#x2023;</span>
+                                        SQL
+                                    </li>
+                                    <li className="flex flex-wrap items-center"> 
+                                        <span className="text-teal-500 text-2xl mr-2">&#x2023;</span>
+                                        Node.js
+                                    </li>
+                                </ul>
+                                <ul className="text-sm">
+                                    <li className="flex flex-wrap items-center"> 
+                                        <span className="text-teal-500 text-2xl mr-2">&#x2023;</span>
+                                        JavaScript
+                                    </li>
+                                    <li className="flex flex-wrap items-center"> 
+                                        <span className="text-teal-500 text-2xl mr-2">&#x2023;</span>
+                                        CSS
+                                    </li>
+                                    <li className="flex flex-wrap items-center"> 
+                                        <span className="text-teal-500 text-2xl mr-2">&#x2023;</span>
+                                        HTML
+                                    </li>
+                                </ul>
+                                <ul className="text-sm">
+                                    <li className="flex flex-wrap items-center"> 
+                                        <span className="text-teal-500 text-2xl mr-2">&#x2023;</span>
+                                        Django
+                                    </li>
+                                    <li className="flex flex-wrap items-center"> 
+                                        <span className="text-teal-500 text-2xl mr-2">&#x2023;</span>
+                                        React.js
+                                    </li>
+                                    <li className="flex flex-wrap items-center"> 
+                                        <span className="text-teal-500 text-2xl mr-2">&#x2023;</span>
+                                        Flask
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -187,9 +188,14 @@ export default function Home() {
                                 Jan. 2025 – Aug. 2025
                             </h1>
                             <div className="flex flex-col gap-3">
-                                <h1 className="child-container text-[1.35rem] text-gray-200">
-                                    Game Dev Intern · MyEdMaster
-                                </h1>
+                                <div className="flex child-container justify-between">
+                                    <h1 className="child-container text-[1.35rem] text-gray-200">
+                                        Game Dev Intern · MyEdMaster
+                                    </h1>
+                                    <a href="https://www.myedmaster.com/" target="_blank" rel="noopener noreferrer">
+                                        <IconLink className="w-7 text-gray-200 child-container hover:text-white transition" />
+                                    </a>
+                                </div>
                                 <p className="text-1xl text-gray-400">
                                     Built an interactive SAT prep game used by 200+ students using React, Django, and PostgreSQL, featuring real-time gameplay, dynamic scoring, and multiplayer support via REST APIs and WebSockets. Implemented a weekly, category-based leaderboard (Math and Reading) with live data refresh and sub-second UI updates. Designed responsive, data-driven UI components and a clean, modular architecture to improve scalability and reduce maintenance overhead.
                                 </p>
@@ -215,9 +221,14 @@ export default function Home() {
                                 Sep. 2025 – Dec. 2025
                             </h1>
                             <div className="flex flex-col gap-3">
-                                <h1 className="child-container text-[1.35rem] text-gray-200">
-                                    Digital Content Intern  · Framingham Public Schools
-                                </h1>
+                                <div className="flex child-container justify-between">
+                                    <h1 className="child-container text-[1.35rem] text-gray-200">
+                                        Digital Content Intern · Framingham Public Schools
+                                    </h1>
+                                    <a href="https://www.framingham.k12.ma.us/" target="_blank" rel="noopener noreferrer">
+                                        <IconLink className="w-7 text-gray-200 child-container hover:text-white transition" />
+                                    </a>
+                                </div>
                                 <p className="text-1xl text-gray-400">
                                     Collaborated with three departments to digitize and integrate multilingual Portuguese and English curriculum materials into structured HTML, CSS, and JavaScript templates, processing over 500 files. Developed a Python-based Beautiful Soup parsing tool to automate text extraction and tagging. Improved content insertion efficiency by 40% while reducing manual formatting errors.
                                 </p>
@@ -245,9 +256,30 @@ export default function Home() {
                     <div className="px-4 sm:px-8 lg:px-24 site-container">
                         <div className="flex justify-between">
                             <h1 className="text-3xl">
+                                Role Matcher app
+                            </h1>
+                            <a href="https://github.com/Dmitry-Oyawale/projectphase3-querycrushers" target="_blank" rel="noopener noreferrer">
+                                <IconLink className="w-7 hover:text-white transition" />
+                            </a>
+                        </div>
+                        <br></br>
+                        <h1 className="text-[.9rem]">
+                            Built and deployed a full-stack Flask web application on AWS (EC2 + RDS) that matches students with faculty research positions using profile-based recommendations, supporting 200+ users with secure Auth0 authentication and a PostgreSQL backend.
+                        </h1>
+                        <br></br>
+                        <div className="w-1/2 text-gray-400 text-[.9rem] flex gap-6">
+                            <p>Python</p>
+                            <p>CSS</p>
+                            <p>SQL</p>
+                            <p>PostgreSQL</p>
+                        </div>
+                    </div>
+                    <div className="px-4 sm:px-8 lg:px-24 site-container">
+                        <div className="flex justify-between">
+                            <h1 className="text-3xl">
                                 Yelp Database app
                             </h1>
-                            <a href="https://github.com/Dmitry-Oyawale/projectphase3-querycrushers">
+                            <a href="https://github.com/Dmitry-Oyawale/projectphase3-querycrushers" target="_blank" rel="noopener noreferrer">
                                 <IconLink className="w-7 hover:text-white transition" />
                             </a>
                         </div>
@@ -268,7 +300,7 @@ export default function Home() {
                             <h1 className="text-3xl">
                                 Python Notes Website
                             </h1>
-                            <a href="https://github.com/Dmitry-Oyawale/Flask-Web-App-3">
+                            <a href="https://github.com/Dmitry-Oyawale/Flask-Web-App-3" target="_blank" rel="noopener noreferrer">
                                 <IconLink className="w-7 hover:text-white transition" />
                             </a>
                         </div>
@@ -291,7 +323,7 @@ export default function Home() {
             </section>
             </FadeIn>
             <FadeIn>
-            <section id="contact" className="min-h-screen scroll-mt-24">  
+            <section id="contact" className="min-h-screen scroll-mt-24 mt-24 sm:mt-32 lg:mt-40">  
                 <div className="px-6 sm:px-10 lg:px-24 xl:px-67  text-gray-200">
                     <h1 className="text-6xl text-teal-500 [font-family:var(--font-space)]">
                             contact.
@@ -304,18 +336,18 @@ export default function Home() {
 
                     <div className="text-gray-400 flex flex-col flex-wrap items-center gap-6">
                         <div className="flex flex-row flex-wrap gap-8">
-                            <a href="https://github.com/Dmitry-Oyawale">
+                            <a href="https://github.com/Dmitry-Oyawale" target="_blank" rel="noopener noreferrer">
                                 <IconGitHub className="w-24 sm:w-27 lg:w-40 hover:text-white transition" />
                             </a>
-                            <a href="https://www.linkedin.com/in/kevin-lai-250339313/">
+                            <a href="https://www.linkedin.com/in/kevin-lai-250339313/" target="_blank" rel="noopener noreferrer">
                                 <IconLinkedin className="w-21 sm:w-27 lg:w-40 hover:text-white transition" />
                             </a>
                         </div>
                         <div className="flex flex-row flex-wrap gap-8">
-                            <a href="https://www.instagram.com/kevinlai483/">
+                            <a href="https://www.instagram.com/kevinlai483/" target="_blank" rel="noopener noreferrer">
                                 <IconInstagram className="w-21 sm:w-27 lg:w-40 hover:text-white transition" />
                             </a>
-                            <a href="https://clovesandcinnamon3.wordpress.com/">
+                            <a href="https://clovesandcinnamon3.wordpress.com/" target="_blank" rel="noopener noreferrer">
                                 <IconWordPress className="w-21 sm:w-27 lg:w-40 hover:text-white transition" />
                             </a>
                         </div>
