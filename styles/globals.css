@@ -35,6 +35,10 @@ html {
     background-color: #111827; 
 }
 
+.site-container:hover {
+    background-color: #FFFFFF14;
+}
+
 .trans-container {
     border-radius:8px;
     width: 90%;           

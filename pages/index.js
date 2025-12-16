@@ -6,6 +6,7 @@ import IconGitHub from "../public/github";
 import IconInstagram from "../public/instagram";    
 import IconLinkedin from "../public/linkedin";
 import IconWordPress from "../public/wordpress";
+import IconLink from "../public/link"
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
@@ -34,7 +35,29 @@ export default function Home() {
             </nav>
             {/* Intro */}
             <FadeIn>
-            <section className="min-h-screen px-6 sm:px-10 lg:px-24 xl:px-96 flex flex-col justify-center"> 
+            <section className="min-h-screen"> 
+                <nav className="flex justify-between">
+                    <div> 
+                        <a href="https://github.com/Dmitry-Oyawale">
+                            <IconGitHub className="w-12 sm:w-15 lg:w-22 hover:text-white transition" />
+                        </a>
+                    </div>
+                    <div className="flex">
+                        <a href="https://github.com/Dmitry-Oyawale">
+                            <IconGitHub className="w-12 sm:w-15 lg:w-22 hover:text-white transition" />
+                        </a>
+                        <a href="https://www.linkedin.com/in/kevin-lai-250339313/">
+                            <IconLinkedin className="w-12 sm:w-15 lg:w-22 hover:text-white transition" />
+                        </a>
+                        <a href="https://www.instagram.com/kevinlai483/">
+                            <IconInstagram className="w-12 sm:w-15 lg:w-22 hover:text-white transition" />
+                        </a>
+                        <a href="https://clovesandcinnamon3.wordpress.com/">
+                            <IconWordPress className="w-12 sm:w-15 lg:w-22 hover:text-white transition" />
+                        </a>
+                    </div>
+                </nav>
+                <div className="px-6 sm:px-10 lg:px-24 xl:px-96 flex flex-col justify-center">
                     <h3 className="[font-family:var(--font-space)]">
                         Hello, my name is
                     </h3>
@@ -47,6 +70,7 @@ export default function Home() {
                     <h1 className="py-2 text-gray-400 text-2xl">
                         Software developer focused on building clean, efficient, and user-friendly applications. Experienced in full-stack development with a strong interest in scalable systems and thoughtful design.
                     </h1>
+                </div>
             </section>
             </FadeIn>
             {/* Background */}
@@ -85,6 +109,7 @@ export default function Home() {
                     <h1 className="text-6xl [font-family:var(--font-space)]">
                         experience.
                     </h1>
+                    <br></br>
                     <div className="px-4 sm:px-8 lg:px-24 trans-container group relative overflow-hidden">
                         <div className="relative items-start gap-2 flex flex-col sm:flex-row">
                             <h1 className="text-1xl text-gray-400 w-50 shrink-0"> 
@@ -147,9 +172,14 @@ export default function Home() {
                     </h1>
                     <br></br>
                     <div className="px-4 sm:px-8 lg:px-24 site-container">
-                        <h1 className="text-3xl">
-                            Yelp Database app
-                        </h1>
+                        <div className="flex justify-between">
+                            <h1 className="text-3xl">
+                                Yelp Database app
+                            </h1>
+                            <a href="https://github.com/Dmitry-Oyawale/projectphase3-querycrushers">
+                                <IconLink className="w-7 hover:text-white transition" />
+                            </a>
+                        </div>
                         <br></br>
                         <h1 className="text-[.9rem]">
                             A scalable PostgreSQL database for 100K+ Yelp records and a JavaFX application for interactive querying and visualization.
@@ -163,9 +193,14 @@ export default function Home() {
                         </div>
                     </div>
                     <div className="px-4 sm:px-8 lg:px-24 site-container">
-                        <h1 className="text-3xl">
-                            Python Notes Website 
-                        </h1>
+                        <div className="flex justify-between">
+                            <h1 className="text-3xl">
+                                Python Notes Website
+                            </h1>
+                            <a href="https://github.com/Dmitry-Oyawale/Flask-Web-App-3">
+                                <IconLink className="w-7 hover:text-white transition" />
+                            </a>
+                        </div>
                         <br></br>
                         <h1 className="text-[.9rem]">
                             A Python-based notes application using Flask with secure authentication, SQLAlchemy-backed data persistence, and a responsive user interface for managing personal notes.
@@ -195,24 +230,27 @@ export default function Home() {
                     <u className="text-2xl flex justify-center">laikevin279@gmail.com</u>
                     <br></br>
                     <br></br>
-                    <br></br>
-                    <br></br>
-                    <div className="text-gray-400 flex flex-row justify-center gap-6">
-                        <a href="https://github.com/Dmitry-Oyawale">
-                            <IconGitHub className="w-50 hover:text-white transition" />
-                        </a>
-                        <a href="https://www.linkedin.com/in/kevin-lai-250339313/">
-                            <IconLinkedin className="w-50 hover:text-white transition" />
-                        </a>
-                        <a href="https://www.instagram.com/kevinlai483/">
-                            <IconInstagram className="w-50 hover:text-white transition" />
-                        </a>
-                        <a href="https://clovesandcinnamon3.wordpress.com/">
-                            <IconWordPress className="w-50 hover:text-white transition" />
-                        </a>
+
+                    <div className="text-gray-400 flex flex-col flex-wrap items-center gap-6">
+                        <div className="flex flex-row flex-wrap gap-8">
+                            <a href="https://github.com/Dmitry-Oyawale">
+                                <IconGitHub className="w-24 sm:w-30 lg:w-45 hover:text-white transition" />
+                            </a>
+                            <a href="https://www.linkedin.com/in/kevin-lai-250339313/">
+                                <IconLinkedin className="w-24 sm:w-30 lg:w-45 hover:text-white transition" />
+                            </a>
+                        </div>
+                        <div className="flex flex-row flex-wrap gap-8">
+                            <a href="https://www.instagram.com/kevinlai483/">
+                                <IconInstagram className="w-24 sm:w-30 lg:w-45 hover:text-white transition" />
+                            </a>
+                            <a href="https://clovesandcinnamon3.wordpress.com/">
+                                <IconWordPress className="w-24 sm:w-30 lg:w-45 hover:text-white transition" />
+                            </a>
+                        </div>
                     </div>
 
-                    <p className="text-center text-gray-400 px-30 mt-40">
+                    <p className="text-center text-gray-400 px-6 sm:px-12 lg:px-30 mt-6 sm:mt-10 lg:mt-16">
                         Loosely designed in Figma and coded in Visual Studio Code by yours truly. Built with Next.js and Tailwind CSS, deployed with Vercel. All text is set in the Inter typeface.
                     </p>
                 </div>
