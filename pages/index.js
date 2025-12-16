@@ -113,57 +113,57 @@ export default function Home() {
                             </h1>
                             <div className="flex flex-wrap text-sm mt-4 gap-10">
                                 <ul>
-                                    <li className="flex flex-wrap items-center"> 
+                                    <li className="flex flex-wrap items-center stack-fade1"> 
                                         <span className="text-teal-500 text-2xl mr-2">&#x2023;</span>
                                         Python
                                     </li>
-                                    <li className="flex flex-wrap items-center"> 
+                                    <li className="flex flex-wrap items-center stack-fade2"> 
                                         <span className="text-teal-500 text-2xl mr-2">&#x2023;</span>
                                         Java
                                     </li>
-                                    <li className="flex flex-wrap items-center"> 
+                                    <li className="flex flex-wrap items-center stack-fade3"> 
                                         <span className="text-teal-500 text-2xl mr-2">&#x2023;</span>
                                         C
                                     </li>
                                 </ul>
                                 <ul className="text-sm">
-                                    <li className="flex flex-wrap items-center"> 
+                                    <li className="flex flex-wrap items-center stack-fade4"> 
                                         <span className="text-teal-500 text-2xl mr-2">&#x2023;</span>
                                         C++
                                     </li>
-                                    <li className="flex flex-wrap items-center"> 
+                                    <li className="flex flex-wrap items-center stack-fade5"> 
                                         <span className="text-teal-500 text-2xl mr-2">&#x2023;</span>
                                         SQL
                                     </li>
-                                    <li className="flex flex-wrap items-center"> 
+                                    <li className="flex flex-wrap items-center stack-fade6"> 
                                         <span className="text-teal-500 text-2xl mr-2">&#x2023;</span>
                                         Node.js
                                     </li>
                                 </ul>
                                 <ul className="text-sm">
-                                    <li className="flex flex-wrap items-center"> 
+                                    <li className="flex flex-wrap items-center stack-fade7"> 
                                         <span className="text-teal-500 text-2xl mr-2">&#x2023;</span>
                                         JavaScript
                                     </li>
-                                    <li className="flex flex-wrap items-center"> 
+                                    <li className="flex flex-wrap items-center stack-fade8"> 
                                         <span className="text-teal-500 text-2xl mr-2">&#x2023;</span>
                                         CSS
                                     </li>
-                                    <li className="flex flex-wrap items-center"> 
+                                    <li className="flex flex-wrap items-center stack-fade9"> 
                                         <span className="text-teal-500 text-2xl mr-2">&#x2023;</span>
                                         HTML
                                     </li>
                                 </ul>
                                 <ul className="text-sm">
-                                    <li className="flex flex-wrap items-center"> 
+                                    <li className="flex flex-wrap items-center stack-fade10"> 
                                         <span className="text-teal-500 text-2xl mr-2">&#x2023;</span>
                                         Django
                                     </li>
-                                    <li className="flex flex-wrap items-center"> 
+                                    <li className="flex flex-wrap items-center stack-fade11"> 
                                         <span className="text-teal-500 text-2xl mr-2">&#x2023;</span>
                                         React.js
                                     </li>
-                                    <li className="flex flex-wrap items-center"> 
+                                    <li className="flex flex-wrap items-center stack-fade12"> 
                                         <span className="text-teal-500 text-2xl mr-2">&#x2023;</span>
                                         Flask
                                     </li>

@@ -130,3 +130,28 @@ html {
     transform: translate(0, 0);
   }
 } 
+
+.fade-trigger[data-tick] .stack-fade1  { animation: in-fade 0.17s ease forwards; }
+.fade-trigger[data-tick] .stack-fade2  { animation: in-fade 0.33s ease forwards; }
+.fade-trigger[data-tick] .stack-fade3  { animation: in-fade 0.5s  ease forwards; }
+.fade-trigger[data-tick] .stack-fade4  { animation: in-fade 0.67s ease forwards; }
+.fade-trigger[data-tick] .stack-fade5  { animation: in-fade 0.83s ease forwards; }
+.fade-trigger[data-tick] .stack-fade6  { animation: in-fade 1s    ease forwards; }
+.fade-trigger[data-tick] .stack-fade7  { animation: in-fade 1.17s ease forwards; }
+.fade-trigger[data-tick] .stack-fade8  { animation: in-fade 1.33s ease forwards; }
+.fade-trigger[data-tick] .stack-fade9  { animation: in-fade 1.5s  ease forwards; }
+.fade-trigger[data-tick] .stack-fade10 { animation: in-fade 1.67s ease forwards; }
+.fade-trigger[data-tick] .stack-fade11 { animation: in-fade 1.83s ease forwards; }
+.fade-trigger[data-tick] .stack-fade12 { animation: in-fade 2s    ease forwards; }
+
+@keyframes in-fade {
+  0% {
+    opacity: 0;
+  }
+  90% {
+    opacity:0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
