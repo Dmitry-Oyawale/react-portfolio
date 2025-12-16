@@ -95,12 +95,13 @@ html {
 }
 
 .text {
+  font-family: monospace; 
   border-right: 2px solid;
-  width: 45%;
+  width: 18ch;
   white-space: nowrap;
   overflow: hidden;
   animation:
-    typing 2s steps(27),
+    typing 2s steps(18),
     cursor .4s step-end infinite alternate;
 }
 
@@ -112,20 +113,20 @@ html {
   from { width: 0 }
 }
 
-@media (max-width: 1024px) {
-  .text {
-    width: 42%;
-  }
+.norca-container {
+  animation:
+    bobble 3s infinite;
 }
 
-@media (max-width: 800px) {
-  .text {
-    width: 62%;
+@keyframes bobble {
+  0% {
+    transform: translate(0,0);
   }
-}
-
-@media (max-width: 530px) {
-  .text {
-    width: 95%;
+  50% {
+    transform: translate(0, 9px);
+    color: #115e59;
   }
-}
+  100% {
+    transform: translate(0, 0);
+  }
+} 

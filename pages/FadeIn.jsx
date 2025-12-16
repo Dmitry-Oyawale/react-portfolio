@@ -23,7 +23,7 @@ export default function FadeIn({ children }) {
   return (
     <div
       ref={ref}
-      className={`transition-all duration-1500 ease-out ${
+      className={`transition-all duration-2000 ease-out ${
         visible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
       }`}
     >

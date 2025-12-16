@@ -8,6 +8,7 @@ import IconLinkedin from "../public/linkedin";
 import IconWordPress from "../public/wordpress";
 import IconLink from "../public/link";
 import IconK from "../public/logo";
+import IconNorca from "../public/norca";
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
@@ -59,7 +60,7 @@ export default function Home() {
                         </a>
                     </div>
                 </nav>
-                <div className="px-6 mt-20 sm:px-10 lg:px-24 lg:mt-32 xl:px-96 xl:mt-40 flex flex-col justify-center">
+                <div className="px-6 mt-20 sm:px-10 lg:px-24 lg:mt-32 xl:px-96 xl:mt-35 flex flex-col justify-center">
                     <h3 className="[font-family:var(--font-space)]">
                         Hello, my name is
                     </h3>
@@ -67,11 +68,16 @@ export default function Home() {
                         kevin lai
                     </h1>
                     <h1 className="text py-2 font-bold text-gray-400 text-2xl">
-                        I build things for the web.
+                        Software Developer
                     </h1>
                     <h1 className="py-2 text-gray-400 text-2xl">
                         Software developer focused on building clean, efficient, and user-friendly applications. Experienced in full-stack development with a strong interest in scalable systems and thoughtful design.
                     </h1>
+                </div>
+                <div className="flex justify-center norca-container">
+                    <a href="#background">
+                        <IconNorca className="mx-2 my-8 lg:my-16 w-6 sm:w-8 lg:w-11 hover:text-white transition" />
+                    </a>
                 </div>
             </section>
             </FadeIn>
@@ -83,23 +89,86 @@ export default function Home() {
                         about.
                     </h1>
                     <br></br>
-                    <div className="text-gray-400">
-                        <h2 className="text-sm w-1/2 [font-family:var(--font-space)]">
+                    <div className="text-gray-400 [font-family:var(--font-space)]">
+                        <h2 className="text-sm w-1/2">
                                 I'm a software developer based in India with over 4 years of experience across brand and product, at companies large and small. I take pride in my craft, and love mentoring earlier career developers. I develop cross functional partnerships, and thrive in complex, ambiguous environments.
                         </h2>
                         <br></br>
-                        <h1 className="text-sm w-1/2 [font-family:var(--font-space)] second-half-text">
+                        <h1 className="text-sm w-1/2 second-half-text">
                                 My approach combines technical expertise with creative problem-solving, always striving to build solutions that are both elegant and practical. Zooming out on company strategy, zooming in on details.
                         </h1>
                         <br></br>
-                        <h1 className="text-sm w-1/2 [font-family:var(--font-space)]">
+                        <h1 className="text-sm w-1/2">
                                 In my free time I try to challenge myself with new projects, learn new things, compose music, practice yoga, go for a long run or just kick back relax at a temple nearby.
                         </h1>
                         <br></br>
                         <br></br>
-                        <h1 className="text-sm w-1/2 [font-family:var(--font-space)] second-half-text">
+                        <h1 className="text-sm w-1/2 second-half-text">
                                 Creating something from the ground up and watching it grow is incredibly fulfilling. Engaging in this process with passion feels spiritual to me.
                         </h1>
+                        <br></br>
+                        <br></br>
+                        <h1 className="text-sm">
+                            My current tech stack includes the following:
+                        </h1>
+                        <div className="flex text-sm">
+                            <ul className="text-sm">
+                                <li className="flex items-center"> 
+                                    <span className="text-teal-500 text-2xl mr-2">&#x2023;</span>
+                                    Python
+                                </li>
+                                <li className="flex items-center"> 
+                                    <span className="text-teal-500 text-2xl mr-2">&#x2023;</span>
+                                    Java
+                                </li>
+                                <li className="flex items-center"> 
+                                    <span className="text-teal-500 text-2xl mr-2">&#x2023;</span>
+                                    C
+                                </li>
+                            </ul>
+                            <ul className="text-sm">
+                                <li className="flex items-center"> 
+                                    <span className="text-teal-500 text-2xl mr-2">&#x2023;</span>
+                                    C++
+                                </li>
+                                <li className="flex items-center"> 
+                                    <span className="text-teal-500 text-2xl mr-2">&#x2023;</span>
+                                    SQL
+                                </li>
+                                <li className="flex items-center"> 
+                                    <span className="text-teal-500 text-2xl mr-2">&#x2023;</span>
+                                    Node.js
+                                </li>
+                            </ul>
+                            <ul className="text-sm">
+                                <li className="flex items-center"> 
+                                    <span className="text-teal-500 text-2xl mr-2">&#x2023;</span>
+                                    JavaScript
+                                </li>
+                                <li className="flex items-center"> 
+                                    <span className="text-teal-500 text-2xl mr-2">&#x2023;</span>
+                                    CSS
+                                </li>
+                                <li className="flex items-center"> 
+                                    <span className="text-teal-500 text-2xl mr-2">&#x2023;</span>
+                                    HTML
+                                </li>
+                            </ul>
+                            <ul className="text-sm">
+                                <li className="flex items-center"> 
+                                    <span className="text-teal-500 text-2xl mr-2">&#x2023;</span>
+                                    Django
+                                </li>
+                                <li className="flex items-center"> 
+                                    <span className="text-teal-500 text-2xl mr-2">&#x2023;</span>
+                                    React.js
+                                </li>
+                                <li className="flex items-center"> 
+                                    <span className="text-teal-500 text-2xl mr-2">&#x2023;</span>
+                                    Flask
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </section>
