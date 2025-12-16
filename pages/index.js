@@ -77,8 +77,25 @@ export default function Home() {
                     <h1 className="text-6xl [font-family:var(--font-space)]">
                         experience.
                     </h1>
-                    <div className="px-80 trans-container">
-                        <div className="flex flex-row items-start gap-2">
+                    <div className="px-80 trans-container group relative overflow-hidden
+                    rounded-2xl
+                    border border-white/10
+                    bg-white/5
+                    backdrop-blur-xl
+                    p-6
+                    transition-all duration-300 ease-out
+
+                    hover:bg-white/10
+                    hover:border-teal-400/30
+                    hover:shadow-[0_0_45px_rgba(45,212,191,0.25)]
+                    ">
+                    <div className="
+                        pointer-events-none absolute inset-0
+                        opacity-0 transition-opacity duration-300
+                        group-hover:opacity-100
+                        bg-gradient-to-br from-teal-500/20 via-transparent to-transparent
+                    " />
+                        <div className="relative flex flex-row items-start gap-2">
                             <h1 className="text-1xl w-50 shrink-0"> 
                                 Jan. 2025 – Aug. 2025
                             </h1>
@@ -92,8 +109,25 @@ export default function Home() {
                             </div>
                         </div>
                     </div>
-                    <div className="px-80 trans-container">
-                        <div className="flex flex-row items-start gap-2">
+                    <div className="px-80 trans-container group relative overflow-hidden
+                        rounded-2xl
+                        border border-white/10
+                        bg-white/5
+                        backdrop-blur-xl
+                        p-6
+                        transition-all duration-300 ease-out
+
+                        hover:bg-white/10
+                        hover:border-teal-400/30
+                        hover:shadow-[0_0_45px_rgba(45,212,191,0.25)]
+                        ">
+                    <div className="
+                        pointer-events-none absolute inset-0
+                        opacity-0 transition-opacity duration-300
+                        group-hover:opacity-100
+                        bg-gradient-to-br from-teal-500/20 via-transparent to-transparent
+                    " />
+                        <div className="relative flex flex-row items-start gap-2">
                             <h1 className="text-1xl w-50 shrink-0"> 
                                 Sep. 2025 – Dec. 2025
                             </h1>
