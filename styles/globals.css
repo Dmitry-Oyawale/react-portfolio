@@ -32,11 +32,22 @@ html {
     margin-bottom: 30px; 
     padding: 20px;       
     border: 1px solid #ccc; 
+    transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out;
     background-color: #111827; 
 }
 
 .site-container:hover {
     background-color: #FFFFFF14;
+    transform: translateY(-10px);
+}
+
+@keyframes pop{
+  0%{
+
+  }
+  100%{
+    transform: translateY(-10px);
+  }
 }
 
 .trans-container {
@@ -49,10 +60,17 @@ html {
     background-color: #111827; 
     border: .1px solid #111827; 
 }
+.child-container {
+    background-color: transparent;
+}
 
 .trans-container:hover {
     background-color: #FFFFFF14;
     border-top: .1px solid #b3abab; 
+}
+
+.trans-container:hover .child-container {
+  color: #2dd4bf;
 }
 
 .mini-container {
@@ -74,4 +92,40 @@ html {
     margin-left: 50%;
     width: 50%; 
     padding: 10px;
+}
+
+.text {
+  border-right: 2px solid;
+  width: 45%;
+  white-space: nowrap;
+  overflow: hidden;
+  animation:
+    typing 2s steps(27),
+    cursor .4s step-end infinite alternate;
+}
+
+@keyframes cursor {
+  50% { border-color: transparent } 
+}
+
+@keyframes typing {
+  from { width: 0 }
+}
+
+@media (max-width: 1024px) {
+  .text {
+    width: 42%;
+  }
+}
+
+@media (max-width: 800px) {
+  .text {
+    width: 62%;
+  }
+}
+
+@media (max-width: 530px) {
+  .text {
+    width: 95%;
+  }
 }

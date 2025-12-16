@@ -6,7 +6,8 @@ import IconGitHub from "../public/github";
 import IconInstagram from "../public/instagram";    
 import IconLinkedin from "../public/linkedin";
 import IconWordPress from "../public/wordpress";
-import IconLink from "../public/link"
+import IconLink from "../public/link";
+import IconK from "../public/logo";
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
@@ -19,6 +20,11 @@ export default function Home() {
             <link rel="icon" href="/favicon.ico" />
         </Head>
         <main className="text-teal-500 min-h-screen">
+            <nav className="flex z-100 w-48 fixed left-0 top-0 h-10 px-2 py-4 gap-6">
+                <a href="#intro" className="cursor-pointer [font-family:var(--font-space)]">
+                    <IconK className="mx-3 w-6 sm:w-8 lg:w-11 text-teal-500" />
+                </a>
+            </nav>
             <nav className="hidden lg:flex z-50 w-48 fixed left-0 top-0 h-screen px-6 py-10 flex-col justify-center gap-6">
                 <a href="#background" className="cursor-pointer [font-family:var(--font-space)]">
                     About
@@ -35,36 +41,32 @@ export default function Home() {
             </nav>
             {/* Intro */}
             <FadeIn>
-            <section className="min-h-screen"> 
-                <nav className="flex justify-between">
-                    <div> 
-                        <a href="https://github.com/Dmitry-Oyawale">
-                            <IconGitHub className="mx-3 my-3 w-6 sm:w-8 lg:w-11 hover:text-white transition" />
-                        </a>
-                    </div>
+            <section id="intro" className="min-h-screen"> 
+                <nav className="flex justify-between text-teal-700 px-2">
+                    <div></div>
                     <div className="flex">
                         <a href="https://github.com/Dmitry-Oyawale">
-                            <IconGitHub className="mx-2 my-3 w-6 sm:w-8 lg:w-11 hover:text-white transition" />
+                            <IconGitHub className="mx-2 my-4 w-6 sm:w-8 lg:w-11 hover:text-white transition" />
                         </a>
                         <a href="https://www.linkedin.com/in/kevin-lai-250339313/">
-                            <IconLinkedin className="mx-2 my-3 w-6 sm:w-8 lg:w-11 hover:text-white transition" />
+                            <IconLinkedin className="mx-2 my-4 w-6 sm:w-8 lg:w-11 hover:text-white transition" />
                         </a>
                         <a href="https://www.instagram.com/kevinlai483/">
-                            <IconInstagram className="mx-2 my-3 w-6 sm:w-8 lg:w-11 hover:text-white transition" />
+                            <IconInstagram className="mx-2 my-4 w-6 sm:w-8 lg:w-11 hover:text-white transition" />
                         </a>
                         <a href="https://clovesandcinnamon3.wordpress.com/">
-                            <IconWordPress className="mx-2 my-3 w-6 sm:w-8 lg:w-11 hover:text-white transition" />
+                            <IconWordPress className="mx-2 my-4 w-6 sm:w-8 lg:w-11 hover:text-white transition" />
                         </a>
                     </div>
                 </nav>
-                <div className="px-6 mt-20 sm:px-10 lg:px-24 lg:mt-27 xl:px-96 xl:mt-35 flex flex-col justify-center">
+                <div className="px-6 mt-20 sm:px-10 lg:px-24 lg:mt-32 xl:px-96 xl:mt-40 flex flex-col justify-center">
                     <h3 className="[font-family:var(--font-space)]">
                         Hello, my name is
                     </h3>
                     <h1 className="py-2 text-gray-300 text-7xl sm:text-9xl [font-family:var(--font-space)]">
                         kevin lai
                     </h1>
-                    <h1 className="py-2 font-bold text-gray-400 text-2xl">
+                    <h1 className="text py-2 font-bold text-gray-400 text-2xl">
                         I build things for the web.
                     </h1>
                     <h1 className="py-2 text-gray-400 text-2xl">
@@ -116,7 +118,7 @@ export default function Home() {
                                 Jan. 2025 – Aug. 2025
                             </h1>
                             <div className="flex flex-col gap-3">
-                                <h1 className="text-[1.35rem] text-gray-200">
+                                <h1 className="child-container text-[1.35rem] text-gray-200">
                                     Game Dev Intern · MyEdMaster
                                 </h1>
                                 <p className="text-1xl text-gray-400">
@@ -144,7 +146,7 @@ export default function Home() {
                                 Sep. 2025 – Dec. 2025
                             </h1>
                             <div className="flex flex-col gap-3">
-                                <h1 className="text-[1.35rem] text-gray-200">
+                                <h1 className="child-container text-[1.35rem] text-gray-200">
                                     Digital Content Intern  · Framingham Public Schools
                                 </h1>
                                 <p className="text-1xl text-gray-400">
@@ -234,18 +236,18 @@ export default function Home() {
                     <div className="text-gray-400 flex flex-col flex-wrap items-center gap-6">
                         <div className="flex flex-row flex-wrap gap-8">
                             <a href="https://github.com/Dmitry-Oyawale">
-                                <IconGitHub className="w-24 sm:w-30 lg:w-45 hover:text-white transition" />
+                                <IconGitHub className="w-24 sm:w-27 lg:w-40 hover:text-white transition" />
                             </a>
                             <a href="https://www.linkedin.com/in/kevin-lai-250339313/">
-                                <IconLinkedin className="w-24 sm:w-30 lg:w-45 hover:text-white transition" />
+                                <IconLinkedin className="w-21 sm:w-27 lg:w-40 hover:text-white transition" />
                             </a>
                         </div>
                         <div className="flex flex-row flex-wrap gap-8">
                             <a href="https://www.instagram.com/kevinlai483/">
-                                <IconInstagram className="w-24 sm:w-30 lg:w-45 hover:text-white transition" />
+                                <IconInstagram className="w-21 sm:w-27 lg:w-40 hover:text-white transition" />
                             </a>
                             <a href="https://clovesandcinnamon3.wordpress.com/">
-                                <IconWordPress className="w-24 sm:w-30 lg:w-45 hover:text-white transition" />
+                                <IconWordPress className="w-21 sm:w-27 lg:w-40 hover:text-white transition" />
                             </a>
                         </div>
                     </div>
