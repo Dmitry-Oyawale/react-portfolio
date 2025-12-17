@@ -91,19 +91,19 @@ export default function Home() {
                     <br></br>
                     <div className="text-gray-400 [font-family:var(--font-space)]">
                         <h2 className="text-sm w-1/2">
-                                I'm a software developer based in India with over 4 years of experience across brand and product, at companies large and small. I take pride in my craft, and love mentoring earlier career developers. I develop cross functional partnerships, and thrive in complex, ambiguous environments.
+                            I’m a full-stack software developer focused on building clean, scalable web applications, with hands-on experience across both frontend and backend systems. I enjoy taking ownership of features end to end, collaborating closely with teammates, and continuously raising the quality bar through thoughtful design and solid engineering practices.
                         </h2>
                         <br></br>
                         <h1 className="text-sm w-1/2 second-half-text">
-                                My approach combines technical expertise with creative problem-solving, always striving to build solutions that are both elegant and practical. Zooming out on company strategy, zooming in on details.
+                            My work blends strong technical fundamentals with a product-driven mindset, allowing me to navigate complex problems and translate ideas into reliable, user-focused solutions. I’m comfortable switching between big-picture architecture decisions and detailed implementation work, always aiming for clarity, performance, and maintainability.
                         </h1>
                         <br></br>
                         <h1 className="text-sm w-1/2">
-                                In my free time I try to challenge myself with new projects, learn new things, compose music, practice yoga, go for a long run or just kick back relax at a temple nearby.
+                            Outside of coursework and development, I like pushing myself through personal projects and learning new tools and frameworks. I also enjoy staying active, exploring creative outlets, and taking time to reset, which helps me return to problem-solving with fresh perspective and energy.
                         </h1>
                         <br></br>
                         <h1 className="text-sm w-1/2 second-half-text">
-                                Creating something from the ground up and watching it grow is incredibly fulfilling. Engaging in this process with passion feels spiritual to me.
+                            Building something from the ground up and watching it evolve through iteration and feedback is what motivates me most. Contributing to projects with curiosity and intention makes the process deeply rewarding, and I’m driven by the challenge of turning ideas into systems that genuinely help people.
                         </h1>
                         <br></br>
                         <br></br>
@@ -176,7 +176,7 @@ export default function Home() {
             </FadeIn>
             {/* Experience */}
             <FadeIn>
-            <section id="experience" className="min-h-screen scroll-mt-24">   
+            <section id="experience" className="min-h-screen scroll-mt-24 mt-19 sm:mt-36 lg:mt-32">   
                 <div className="px-6 sm:px-10 lg:px-24 xl:px-67">
                     <h1 className="text-6xl [font-family:var(--font-space)]">
                         experience.
@@ -247,7 +247,7 @@ export default function Home() {
             </FadeIn>
             {/* Projects */}
             <FadeIn>
-            <section id="projects" className="min-h-screen scroll-mt-24">  
+            <section id="projects" className="min-h-screen scroll-mt-24 ">  
                 <div className="px-6 sm:px-10 lg:px-24 xl:px-67  text-gray-200 [font-family:var(--font-space)]">
                     <h1 className="text-6xl text-teal-500 [font-family:var(--font-space)]">
                             projects.
@@ -323,7 +323,7 @@ export default function Home() {
             </section>
             </FadeIn>
             <FadeIn>
-            <section id="contact" className="min-h-screen scroll-mt-24 mt-24 sm:mt-32 lg:mt-40">  
+            <section id="contact" className="min-h-screen scroll-mt-24  mt-19 sm:mt-36 lg:mt-32">  
                 <div className="px-6 sm:px-10 lg:px-24 xl:px-67  text-gray-200">
                     <h1 className="text-6xl text-teal-500 [font-family:var(--font-space)]">
                             contact.
@@ -354,7 +354,7 @@ export default function Home() {
                     </div>
 
                     <p className="text-center text-gray-400 px-6 sm:px-12 lg:px-30 mt-6 sm:mt-10 lg:mt-16">
-                        Loosely designed in Figma and coded in Visual Studio Code by yours truly. Built with Next.js and Tailwind CSS, deployed with Vercel. All text is set in the Inter typeface.
+                        Loosely designed in Figma and coded in Visual Studio Code by yours truly. Built with Next.js and Tailwind CSS, deployed with AWS. All text is set in the Inter typeface.
                     </p>
                 </div>
             </section>
