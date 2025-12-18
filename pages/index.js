@@ -353,7 +353,7 @@ export default function Home() {
                     </div>
 
                     <p className="text-center text-gray-400 px-6 sm:px-12 lg:px-30 mt-6 sm:mt-10 lg:mt-16">
-                        Loosely designed in Figma and coded in Visual Studio Code by yours truly. Built with Next.js and Tailwind CSS, deployed with AWS. All text is set in the Inter typeface.
+                        Designed and built from scratch with React and Next.js, styled with Tailwind CSS, and deployed on AWS. Typography set in Inter and Space Grotesk.
                     </p>
                 </div>
             </section>
