@@ -71,7 +71,7 @@ export default function Home() {
                         Software Developer
                     </h1>
                     <h1 className="py-2 text-gray-400 text-2xl">
-                        Software developer focused on building clean, efficient, and user-friendly applications. Experienced in full-stack development with a strong interest in scalable systems and thoughtful design.
+                        Student at Worcester Polytechnic Institute with full stack development experience, driven profoundly by career-oriented ambition and an avidity for building technological breadth. 
                     </h1>
                 </div>
                 <div className="flex justify-center norca-container">
@@ -91,19 +91,14 @@ export default function Home() {
                     <br></br>
                     <div className="text-gray-400 [font-family:var(--font-space)]">
                         <h2 className="text-sm w-1/2">
-                            I’m a full-stack software developer focused on building clean, scalable web applications, with hands-on experience across both frontend and backend systems. I enjoy taking ownership of features end to end, collaborating closely with teammates, and continuously raising the quality bar through thoughtful design and solid engineering practices.
+                             I’m a student at Worcester Polytechnic Institute dedicated to the field of Computer Science. The fast-paced, team-oriented school culture resonates with me as I am always open to forming new connections and seeking new opportunities, whether on or off-campus. Though I once harbored ambitions in web development, I find the current zeitgeist  conducive to furthering my interests in machine learning, cybersecurity, and robotics engineering, which I hope to double major in. 
                         </h2>
-                        <br></br>
                         <h1 className="text-sm w-1/2 second-half-text">
-                            My work blends strong technical fundamentals with a product-driven mindset, allowing me to navigate complex problems and translate ideas into reliable, user-focused solutions. I’m comfortable switching between big-picture architecture decisions and detailed implementation work, always aiming for clarity, performance, and maintainability.
+                            My past work has revolved mainly around democratizing education for the 21st century world. At Tzu Chi I managed lesson logistics and technological troubleshooting for students in a language course, while at MyEdMaster I developed an app for SAT test practice to provide low-cost tutoring. My latest internship at Framingham Public Schools aims to vastly upscale English-language fluency for migrant families, via a web tool facilitating rapid, mass translation, parsing, and distribution of school content. 
                         </h1>
                         <br></br>
                         <h1 className="text-sm w-1/2">
-                            Outside of coursework and development, I like pushing myself through personal projects and learning new tools and frameworks. I also enjoy staying active, exploring creative outlets, and taking time to reset, which helps me return to problem-solving with fresh perspective and energy.
-                        </h1>
-                        <br></br>
-                        <h1 className="text-sm w-1/2 second-half-text">
-                            Building something from the ground up and watching it evolve through iteration and feedback is what motivates me most. Contributing to projects with curiosity and intention makes the process deeply rewarding, and I’m driven by the challenge of turning ideas into systems that genuinely help people.
+                            In my free time I am keen to workout, listen to music, and go for a run or hike; at WPI I am involved in the run club and Association for Computing Machinery. I seek to travel more and actively take in the exciting world around us; I am also interested in history, philosophy, and economics. In the past I have run a personal blog to catalog my readings. 
                         </h1>
                         <br></br>
                         <br></br>
@@ -197,7 +192,7 @@ export default function Home() {
                                     </a>
                                 </div>
                                 <p className="text-1xl text-gray-400">
-                                    Built an interactive SAT prep game used by 200+ students using React, Django, and PostgreSQL, featuring real-time gameplay, dynamic scoring, and multiplayer support via REST APIs and WebSockets. Implemented a weekly, category-based leaderboard (Math and Reading) with live data refresh and sub-second UI updates. Designed responsive, data-driven UI components and a clean, modular architecture to improve scalability and reduce maintenance overhead.
+                                    Built an interactive SAT prep game used by students with React, Django, and PostgreSQL, featuring real-time gameplay, dynamic scoring, and multiplayer support via REST APIs and WebSockets. Implemented a weekly, category-based leaderboard (Math and Reading) with live data refresh and sub-second UI updates. Designed responsive, data-driven UI components and a clean, modular architecture to improve scalability and reduce maintenance overhead.
                                 </p>
                                 <div className="gap-2">
                                     <div className="flex flex-row flex-wrap justify-start gap-2 text-sm text-teal-400">
@@ -230,7 +225,7 @@ export default function Home() {
                                     </a>
                                 </div>
                                 <p className="text-1xl text-gray-400">
-                                    Collaborated with three departments to digitize and integrate multilingual Portuguese and English curriculum materials into structured HTML, CSS, and JavaScript templates, processing over 500 files. Developed a Python-based Beautiful Soup parsing tool to automate text extraction and tagging. Improved content insertion efficiency by 40% while reducing manual formatting errors.
+                                    Collaborated with three departments to digitize and organize multilingual Portuguese and English curriculum materials, processing 500+ files and developing a Python-based parsing tool using Beautiful Soup and Playwright to automate text extraction and tagging, improving workflow efficiency and reducing manual errors by 40%.
                                 </p>
                                 <div className="gap-2">
                                     <div className="flex flex-row justify-start gap-2 text-sm text-teal-400">
@@ -256,7 +251,7 @@ export default function Home() {
                     <div className="px-4 sm:px-8 lg:px-24 site-container">
                         <div className="flex justify-between">
                             <h1 className="text-3xl">
-                                Role Matcher app
+                                Research Position Matcher
                             </h1>
                             <a href="https://github.com/Dmitry-Oyawale/projectphase3-querycrushers" target="_blank" rel="noopener noreferrer">
                                 <IconLink className="w-7 hover:text-white transition" />
@@ -264,12 +259,14 @@ export default function Home() {
                         </div>
                         <br></br>
                         <h1 className="text-[.9rem]">
-                            Built and deployed a full-stack Flask web application on AWS (EC2 + RDS) that matches students with faculty research positions using profile-based recommendations, supporting 200+ users with secure Auth0 authentication and a PostgreSQL backend.
+                            Built and deployed a full-stack Flask application on AWS that matches students with faculty research positions using profile-based recommendations, Auth0 authentication, and a PostgreSQL backend.
                         </h1>
                         <br></br>
                         <div className="w-1/2 text-gray-400 text-[.9rem] flex gap-6">
                             <p>Python</p>
+                            <p>HTML</p>
                             <p>CSS</p>
+                            <p>JavaScript</p>
                             <p>SQL</p>
                             <p>PostgreSQL</p>
                         </div>
@@ -289,6 +286,7 @@ export default function Home() {
                         </h1>
                         <br></br>
                         <div className="w-1/2 text-gray-400 text-[.9rem] flex gap-6">
+                            <p>Java</p>
                             <p>Python</p>
                             <p>CSS</p>
                             <p>SQL</p>
@@ -311,6 +309,7 @@ export default function Home() {
                         <br></br>
                         <div className="text-gray-400 text-[.9rem] flex flex-wrap gap-6">
                             <p>Python</p>
+                            <p>CSS</p>
                             <p>HTML</p>
                             <p>JavaScript</p>
                             <p>Bootstrap</p>
