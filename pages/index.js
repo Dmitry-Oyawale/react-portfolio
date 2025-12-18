@@ -55,9 +55,6 @@ export default function Home() {
                         <a href="https://www.instagram.com/kevinlai483/" target="_blank" rel="noopener noreferrer">
                             <IconInstagram className="mx-2 my-4 w-6 sm:w-8 lg:w-11 hover:text-white transition" />
                         </a>
-                        <a href="https://clovesandcinnamon3.wordpress.com/" target="_blank" rel="noopener noreferrer">
-                            <IconWordPress className="mx-2 my-4 w-6 sm:w-8 lg:w-11 hover:text-white transition" />
-                        </a>
                     </div>
                 </nav>
                 <div className="px-6 mt-20 sm:px-10 lg:px-24 lg:mt-32 xl:px-96 xl:mt-35 flex flex-col justify-center">
