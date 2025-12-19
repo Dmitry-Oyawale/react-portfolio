@@ -1,5 +1,5 @@
 import Head from "next/head";
-import {useState } from "react";
+import {useState, useEffect } from "react";
 import FadeIn from "../pages/FadeIn";
 import Image from "next/image";
 import IconGitHub from "../public/github";
@@ -9,9 +9,28 @@ import IconWordPress from "../public/wordpress";
 import IconLink from "../public/link";
 import IconK from "../public/logo";
 import IconNorca from "../public/norca";
+import LogoLoader from "../pages/LogoLoad";
+
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
+  const [isLoading, setIsLoading] = useState(true);
+
+    useEffect(() => {
+    const timer = setTimeout(() => {
+        setIsLoading(false);
+    }, 2450);
+
+    return () => clearTimeout(timer);
+    }, []);
+
+    if (isLoading) {
+    return (
+        <div className="min-h-screen fixed inset-0 z-[9999] grid place-items-center bg-slate-950">
+            <LogoLoader />
+        </div>
+    );
+    }
 
   return (
     <div className={darkMode ? "dark" : ""}>
