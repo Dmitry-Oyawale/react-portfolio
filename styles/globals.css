@@ -87,11 +87,13 @@ html {
     text-align: center;
 }
 
-
-.second-half-text {
+@media (min-width: 640px) {
+  .second-half-text {
     margin-left: 50%;
-    width: 50%; 
+    width: 50%;
+    box-sizing: border-box;
     padding: 10px;
+  }
 }
 
 .text {
